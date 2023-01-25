@@ -17,5 +17,5 @@ Console.Write("Введите координату y: ");
 int y2 = int.Parse(Console.ReadLine()!);
 
 double result = Math.Sqrt(Math.Pow((x1 - x2), 2) + Math.Pow((y1 - y2), 2));
-result = Math.Round(result, 2);
-Console.WriteLine($"Расстояние между точками равно {result}");
+// result = Math.Round(result, 2);
+Console.WriteLine($"Расстояние между точками равно {result:f3}");
